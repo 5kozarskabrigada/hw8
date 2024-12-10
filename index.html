@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ul ul {
+    display: none;
+    margin-left: 20px;
+}
+
+.toggle:hover {
+    font-weight: bold;
+    
+}
+
+.resizable{
+     width: 300px;
+    height: 150px;
+    border: 1px solid #000000;
+    resize: both;
+    overflow: auto; 
+    position: relative;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <ul>
+        <li><a href="http://google.com">http://google.com</a></li>
+        <li><a href="https://itstep.org">https://itstep.org</a></li>
+        <li><a href="/local/path">/local/path</a></li>
+    </ul>
+
+
+<div>
+    <ul>
+        <li>
+            <span class="collapse">This PC</span>
+            <ul>
+                <li>
+                    <span class="collapse">Local Disk (C:)</span>
+                    <ul>
+                        <li>Program Files</li>
+                        <li>Users</li>
+                        <li>Windows</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="collapse">Local Disk (D:)</span>
+                    <ul>
+                        <li>New Folder 1</li>
+                        <li>New Folder 2</li>
+                        <li>New Folder 3</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="collapse">Local Disk (E:)</span>
+                    <ul>
+                        <li>Empty Folder</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+
+    <ul class="book-list">
+        <li class="book">adklsdksa asdkkdosa asadasda</li>
+        <li class="book">ofdoosad asdjkjdore sadk sdjaisid</li>
+        <li class="book">orpamsdm skf eias ldksld dlklsk</li>
+        <li class="book">dpoapdddddddoo asdddddpo sd099aewj as dda</li>
+        <li class="book">apsdpo jsdkanbfdf klrueri weurqw</li>
+    </ul>
+
+
+<div id="edit-container" contenteditable="false">
+     Press Ctrl E to edit
+    
+</div>
+
+
+<div class="resizable">
+    resize
+</div>
+
+
+
+
+
+
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
